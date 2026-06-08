@@ -514,6 +514,19 @@ a {
   background: var(--cream-2);
 }
 
+.author__grid {
+  grid-template-columns: 0.72fr 1.08fr 0.95fr;
+}
+
+.author__photo {
+  aspect-ratio: 1;
+  border: 1px solid rgba(111, 13, 34, 0.16);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  object-fit: cover;
+  width: 100%;
+}
+
 .author__panel {
   padding: 34px;
   border-left: 6px solid var(--berry);
